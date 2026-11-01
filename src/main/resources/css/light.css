@@ -1,0 +1,24 @@
+/* Light theme: only colour variables. app.css uses them. */
+.root {
+    -app-bg: #EEF4F7;
+    -app-surface: #FFFFFF;
+    -app-surface-alt: #F4F8FA;
+    -app-text: #1D2B33;
+    -app-muted: #5F737D;
+    -app-primary: #0E7C86;
+    -app-primary-dark: #0A5D65;
+    -app-accent: #1565C0;
+    -app-border: #D3E0E6;
+    -app-sidebar: #0A5D65;
+    -app-sidebar-text: #E3F4F5;
+    -app-nav-hover: #0E7C86;
+    -app-nav-active: #13A0AD;
+    -app-hover: #E3EEF2;
+    -app-off: #EEF1F3;
+    -app-class-off: #FDECEA;
+    -app-other-month: #F7F9FA;
+
+    -fx-accent: #0E7C86;
+    -fx-focus-color: #0E7C86;
+    -fx-faint-focus-color: transparent;
+}

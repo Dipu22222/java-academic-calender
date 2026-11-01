@@ -1,0 +1,28 @@
+/* Dark theme: same variable names, different colours. */
+.root {
+    -app-bg: #10181E;
+    -app-surface: #1A252D;
+    -app-surface-alt: #202D36;
+    -app-text: #E6EEF2;
+    -app-muted: #9FB3BD;
+    -app-primary: #2BB3BF;
+    -app-primary-dark: #0A5D65;
+    -app-accent: #64B5F6;
+    -app-border: #2E3E49;
+    -app-sidebar: #0B2E33;
+    -app-sidebar-text: #D5ECEE;
+    -app-nav-hover: #124850;
+    -app-nav-active: #0E7C86;
+    -app-hover: #25343E;
+    -app-off: #16212A;
+    -app-class-off: #3A1E22;
+    -app-other-month: #141D24;
+
+    /* These make the built-in JavaFX controls dark too */
+    -fx-base: #26343D;
+    -fx-background: #10181E;
+    -fx-control-inner-background: #1A252D;
+    -fx-accent: #2BB3BF;
+    -fx-focus-color: #2BB3BF;
+    -fx-faint-focus-color: transparent;
+}

@@ -1,0 +1,159 @@
+{
+  "year": 2026,
+  "banglaYear": "1432-33",
+  "hijriYear": "1447-48",
+  "weeklyOffDays": {
+    "bothOff": ["FRIDAY"],
+    "classOffOnly": ["SATURDAY"],
+    "note": "Calendar image colours only Friday red. Saturday is set from your instructions - verify.",
+    "verify": true
+  },
+  "months": [
+    { "month": 1,  "bangla": "পৌষ – মাঘ",           "hijri": "রজব – শাবান" },
+    { "month": 2,  "bangla": "মাঘ – ফাল্গুন",        "hijri": "শাবান – রমজান" },
+    { "month": 3,  "bangla": "ফাল্গুন – চৈত্র",      "hijri": "রমজান – শাওয়াল" },
+    { "month": 4,  "bangla": "চৈত্র – বৈশাখ",        "hijri": "শাওয়াল – জিলকদ" },
+    { "month": 5,  "bangla": "বৈশাখ – জ্যৈষ্ঠ",      "hijri": "জিলকদ – জিলহজ" },
+    { "month": 6,  "bangla": "জ্যৈষ্ঠ – আষাঢ়",      "hijri": "জিলহজ – মহররম" },
+    { "month": 7,  "bangla": "আষাঢ় – শ্রাবণ",       "hijri": "মহররম – সফর" },
+    { "month": 8,  "bangla": "শ্রাবণ – ভাদ্র",       "hijri": "সফর – রবি. আউ." },
+    { "month": 9,  "bangla": "ভাদ্র – আশ্বিন",       "hijri": "রবি. আউ. – রবি. সানি" },
+    { "month": 10, "bangla": "আশ্বিন – কার্তিক",     "hijri": "রবি. সানি – জমা. আউ." },
+    { "month": 11, "bangla": "কার্তিক – অগ্রহায়ণ",  "hijri": "জমা. আউ. – জমা. সানি" },
+    { "month": 12, "bangla": "অগ্রহায়ণ – পৌষ",      "hijri": "জমা. সানি – রজব" }
+  ],
+  "holidays": [
+    { "key": "shab-e-meraj", "titleEn": "Shab-e-Meraj (27 Rajab)", "titleBn": "শব-ই-মিরাজ (২৭ রজব)",
+      "classOff":  { "start": "2026-01-17", "end": "2026-01-17", "days": 1 },
+      "officeOff": { "start": "2026-01-17", "end": "2026-01-17", "days": 1 },
+      "moonDependent": true, "verify": false },
+
+    { "key": "saraswati-puja", "titleEn": "Sree Sree Saraswati Puja", "titleBn": "শ্রী শ্রী সরস্বতী পূজা",
+      "classOff":  { "start": "2026-01-23", "end": "2026-01-23", "days": 1 },
+      "officeOff": { "start": "2026-01-23", "end": "2026-01-23", "days": 1 },
+      "moonDependent": false, "verify": false },
+
+    { "key": "shab-e-barat", "titleEn": "Shab-e-Barat (15 Sha'ban)", "titleBn": "শব-ই-বরাত (১৫ শাবান)",
+      "classOff":  { "start": "2026-02-04", "end": "2026-02-04", "days": 1 },
+      "officeOff": { "start": "2026-02-04", "end": "2026-02-04", "days": 1 },
+      "moonDependent": true, "verify": false },
+
+    { "key": "shaheed-day", "titleEn": "Shaheed Day & International Mother Language Day", "titleBn": "শহীদ দিবস ও আন্তর্জাতিক মাতৃভাষা দিবস",
+      "classOff":  { "start": "2026-02-21", "end": "2026-02-21", "days": 1 },
+      "officeOff": { "start": "2026-02-21", "end": "2026-02-21", "days": 1 },
+      "moonDependent": false, "verify": false },
+
+    { "key": "ramadan-eid-ul-fitr", "titleEn": "Mahe Ramadan, Shab-e-Qadr, Jumatul Bida, Eid-ul-Fitr", "titleBn": "মাহে রমজান, শব-ই-কদর, জুমাতুল বিদা, ঈদ-উল-ফিতর",
+      "classOff":  { "start": "2026-03-12", "end": "2026-03-25", "days": 14 },
+      "officeOff": { "start": "2026-03-14", "end": "2026-03-25", "days": 12 },
+      "moonDependent": true, "verify": true,
+      "note": "Start dates read from a small print; the 14 and 12 day counts are consistent with them." },
+
+    { "key": "independence-day", "titleEn": "Great Independence and National Day", "titleBn": "মহান স্বাধীনতা ও জাতীয় দিবস",
+      "classOff":  { "start": "2026-03-26", "end": "2026-03-26", "days": 1 },
+      "officeOff": { "start": "2026-03-26", "end": "2026-03-26", "days": 1 },
+      "moonDependent": false, "verify": false },
+
+    { "key": "easter-sunday", "titleEn": "Easter Sunday", "titleBn": "ইস্টার সানডে",
+      "classOff":  { "start": "2026-04-05", "end": "2026-04-05", "days": 1 },
+      "officeOff": { "start": "2026-04-05", "end": "2026-04-05", "days": 1 },
+      "moonDependent": false, "verify": false },
+
+    { "key": "pohela-boishakh", "titleEn": "Bengali New Year (1 Boishakh 1433)", "titleBn": "বাংলা নববর্ষ (০১ বৈশাখ ১৪৩৩ বঙ্গাব্দ)",
+      "classOff":  { "start": "2026-04-14", "end": "2026-04-14", "days": 1 },
+      "officeOff": { "start": "2026-04-14", "end": "2026-04-14", "days": 1 },
+      "moonDependent": false, "verify": false },
+
+    { "key": "may-day", "titleEn": "May Day", "titleBn": "মহান মে দিবস",
+      "classOff":  { "start": "2026-05-01", "end": "2026-05-01", "days": 1 },
+      "officeOff": { "start": "2026-05-01", "end": "2026-05-01", "days": 1 },
+      "moonDependent": false, "verify": false },
+
+    { "key": "buddha-purnima", "titleEn": "Buddha Purnima (Boishakhi Purnima)", "titleBn": "বুদ্ধপূর্ণিমা (বৈশাখী পূর্ণিমা)",
+      "classOff":  { "start": "2026-05-01", "end": "2026-05-01", "days": 1 },
+      "officeOff": { "start": "2026-05-01", "end": "2026-05-01", "days": 1 },
+      "moonDependent": true, "verify": true,
+      "note": "Falls on the same day as May Day; I could not tell if the table lists a separate date." },
+
+    { "key": "eid-ul-adha", "titleEn": "Eid-ul-Adha", "titleBn": "ঈদ-উল-আযহা",
+      "classOff":  { "start": "2026-05-19", "end": "2026-06-03", "days": 16 },
+      "officeOff": { "start": "2026-05-23", "end": "2026-06-03", "days": 12 },
+      "moonDependent": true, "verify": true,
+      "note": "Start dates were hard to read. I chose dates that match the 16 and 12 day counts." },
+
+    { "key": "ashura", "titleEn": "Ashura (10 Muharram)", "titleBn": "আশুরা (১০ মহররম)",
+      "classOff":  { "start": "2026-06-26", "end": "2026-06-26", "days": 1 },
+      "officeOff": { "start": "2026-06-26", "end": "2026-06-26", "days": 1 },
+      "moonDependent": true, "verify": false },
+
+    { "key": "summer-vacation", "titleEn": "Summer Vacation", "titleBn": "গ্রীষ্মকালীন অবকাশ",
+      "classOff":  { "start": "2026-06-27", "end": "2026-07-01", "days": 5 },
+      "officeOff": { "start": "2026-06-27", "end": "2026-07-01", "days": 5 },
+      "moonDependent": false, "verify": true,
+      "note": "Not sure whether offices are also closed or only classes." },
+
+    { "key": "july-uprising-day", "titleEn": "July Mass Uprising Day", "titleBn": "জুলাই গণঅভ্যুত্থান দিবস",
+      "classOff":  { "start": "2026-08-05", "end": "2026-08-05", "days": 1 },
+      "officeOff": { "start": "2026-08-05", "end": "2026-08-05", "days": 1 },
+      "moonDependent": false, "verify": false },
+
+    { "key": "akheri-chahar-shomba", "titleEn": "Akheri Chahar Shomba", "titleBn": "আখেরি চাহার সোম্বা",
+      "classOff":  { "start": "2026-08-12", "end": "2026-08-12", "days": 1 },
+      "officeOff": { "start": "2026-08-12", "end": "2026-08-12", "days": 1 },
+      "moonDependent": true, "verify": true },
+
+    { "key": "eid-e-miladunnabi", "titleEn": "Eid-e-Miladunnabi (12 Rabi-ul-Awwal)", "titleBn": "ঈদ-ই-মিলাদুন্নবী (১২ রবিউল আউয়াল)",
+      "classOff":  { "start": "2026-08-26", "end": "2026-08-26", "days": 1 },
+      "officeOff": { "start": "2026-08-26", "end": "2026-08-26", "days": 1 },
+      "moonDependent": true, "verify": false },
+
+    { "key": "janmashtami", "titleEn": "Shubho Janmashtami", "titleBn": "শুভ জন্মাষ্টমী",
+      "classOff":  { "start": "2026-09-04", "end": "2026-09-04", "days": 1 },
+      "officeOff": { "start": "2026-09-04", "end": "2026-09-04", "days": 1 },
+      "moonDependent": false, "verify": false },
+
+    { "key": "fateha-e-yazdaham", "titleEn": "Fateha-e-Yazdaham (11 Rabi-us-Sani)", "titleBn": "ফাতেহা-ই-ইয়াজদহম (১১ রবিউস সানি)",
+      "classOff":  { "start": "2026-09-24", "end": "2026-09-24", "days": 1 },
+      "officeOff": { "start": "2026-09-24", "end": "2026-09-24", "days": 1 },
+      "moonDependent": true, "verify": true,
+      "note": "Corrected estimate: 11 Rabi-us-Sani falls in September. Check whether the image shows 23 or 24 Sep." },
+
+    { "key": "durga-puja", "titleEn": "Sree Sree Durga Puja", "titleBn": "শ্রী শ্রী দুর্গাপূজা",
+      "classOff":  { "start": "2026-10-18", "end": "2026-10-21", "days": 4 },
+      "officeOff": { "start": "2026-10-18", "end": "2026-10-21", "days": 4 },
+      "moonDependent": false, "verify": false },
+
+    { "key": "lakshmi-puja", "titleEn": "Sree Sree Lakshmi Puja", "titleBn": "শ্রী শ্রী লক্ষ্মীপূজা",
+      "classOff":  { "start": "2026-10-25", "end": "2026-10-25", "days": 1 },
+      "officeOff": null,
+      "moonDependent": false, "verify": true,
+      "note": "Office column looked like a dash; treated as class-off only." },
+
+    { "key": "bhashani-death-anniversary", "titleEn": "50th Death Anniversary of Maulana Abdul Hamid Khan Bhashani", "titleBn": "মাওলানা আবদুল হামিদ খান ভাসানীর ৫০তম মৃত্যুবার্ষিকী",
+      "classOff":  { "start": "2026-11-17", "end": "2026-11-17", "days": 1 },
+      "officeOff": null,
+      "moonDependent": false, "verify": true,
+      "note": "Class-off only (green on the calendar). Please double-check." },
+
+    { "key": "martyred-intellectuals-day", "titleEn": "Martyred Intellectuals Day", "titleBn": "শহীদ বুদ্ধিজীবী দিবস",
+      "classOff":  { "start": "2026-12-14", "end": "2026-12-14", "days": 1 },
+      "officeOff": null,
+      "moonDependent": false, "verify": true,
+      "note": "Class-off only (green on the calendar). Please double-check." },
+
+    { "key": "victory-day", "titleEn": "Great Victory Day", "titleBn": "মহান বিজয় দিবস",
+      "classOff":  { "start": "2026-12-16", "end": "2026-12-16", "days": 1 },
+      "officeOff": { "start": "2026-12-16", "end": "2026-12-16", "days": 1 },
+      "moonDependent": false, "verify": false },
+
+    { "key": "christmas", "titleEn": "Christmas Day (Bor Din)", "titleBn": "বড়দিন (যীশু খ্রিস্টের জন্মদিন)",
+      "classOff":  { "start": "2026-12-25", "end": "2026-12-25", "days": 1 },
+      "officeOff": { "start": "2026-12-25", "end": "2026-12-25", "days": 1 },
+      "moonDependent": false, "verify": false },
+
+    { "key": "winter-vacation", "titleEn": "Winter Vacation", "titleBn": "শীতকালীন অবকাশ",
+      "classOff":  { "start": "2026-12-26", "end": "2026-12-30", "days": 5 },
+      "officeOff": { "start": "2026-12-26", "end": "2026-12-30", "days": 5 },
+      "moonDependent": false, "verify": false }
+  ]
+}

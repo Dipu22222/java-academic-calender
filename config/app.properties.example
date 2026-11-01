@@ -1,0 +1,21 @@
+# Which AI provider to use: openai | gemini | claude | offline
+ai.provider=offline
+
+# Fill in ONLY the provider you use. Never commit real keys to GitHub.
+openai.api.key=
+gemini.api.key=
+claude.api.key=
+
+# Optional: model names. Check each provider's docs for current names.
+openai.model=gpt-4o-mini
+gemini.model=gemini-2.0-flash
+claude.model=claude-haiku-5-5
+
+# Network timeout for AI calls (seconds)
+ai.timeout.seconds=20
+
+# Hijri date shift (Bangladesh moon sighting is usually 1 day after Saudi Arabia)
+hijri.offset.days=-1
+
+# Bangla month-length rule: six31 (default) or five31. Check against your printed calendar.
+bangla.calendar.rule=six31
